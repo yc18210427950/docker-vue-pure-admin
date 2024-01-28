@@ -25,5 +25,5 @@ docker exec -it docker-vue-pure-admin /bin/sh -c "pwd && ls -alh &&git pull"
 <br/>
 <br/>
 容器内更新源码
-<b/r>
+<br/>
 docker exec -it docker-vue-pure-admin /bin/sh -c "git pull"
