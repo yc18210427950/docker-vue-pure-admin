@@ -1,0 +1,15 @@
+version: "3"
+services:
+  docker-vue-pure-admin:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: docker-vue-pure-admin
+    user: root
+    privileged: true
+    ports:
+      - "63101:8848"
+    volumes:
+      - ./prod:/prod
+    restart: always
+    tty: true
