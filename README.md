@@ -16,10 +16,14 @@ http://localhost:63101
 
 # 从上游更新源码
 cd app
+<br/>
 git pull
 
 # 容器内 从上游更新源码
 docker exec -it docker-vue-pure-admin /bin/sh -c "pwd && ls -alh &&git pull"
 <br/>
+<br/>
+<br/>
 容器内更新源码
+<b/r>
 docker exec -it docker-vue-pure-admin /bin/sh -c "git pull"
