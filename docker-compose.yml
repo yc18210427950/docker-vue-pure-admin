@@ -13,3 +13,4 @@ services:
       - ./prod:/prod
     restart: always
     tty: true
+    stdin_open: true

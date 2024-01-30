@@ -19,6 +19,9 @@ cd app
 <br/>
 git pull
 
+# 容器
+容器工作目录 /app
+
 # 容器内 从上游更新源码
 docker exec -it docker-vue-pure-admin /bin/sh -c "pwd && ls -alh &&git pull"
 <br/>
